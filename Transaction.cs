@@ -19,7 +19,11 @@
         }
         public void ShowInfo()//Metod som skriver ut info om transaktion
         {
-
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Transaction information");
+            Console.ResetColor();
+            Console.WriteLine("Description: " + Description + ", Category: " + Category);
+            Console.WriteLine("Income: " + Income + ", Expense: " + Expense + ", Date: " + Date);
         }
     }
 }
