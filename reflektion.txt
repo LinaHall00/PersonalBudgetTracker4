@@ -1,0 +1,5 @@
+﻿Reflektionsfrågor
+Det gjorde så allting fick bättre struktur, när jag startade, började jag med o skapa 2 klasser, transaction, och budgetManger, sedan bygga upp med metoder.
+Det som var svårast, var att jag inte började med income och expense, utan jag körde med amount, men ville inte ha så det står -100kr.
+Så jag ändrade och valde och köra med två olika som höll värde, för jag gav upp på amount, med negativt och positiv summa.
+Jag ville även använda $ eller +, men fick det inte att funka i en del av koden, så jag kallade på ShowInfo istället, som skrev ut informationen.
